@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background: #d55846;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #d55846;
+}
+
+.user-container {
+  width: 460px;
+  margin: 50px auto;
+  padding: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.error {
+  margin: 0;
+  position: absolute;
+  color: red;
+  padding-top: 5px;
+  font-size: 1.3rem;
+}
+
+input {
+  margin-top: 3rem;
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  border-color: #007eff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 0 3px rgba(0, 126, 255, 0.1);
+  outline: none;
+}
+
+input.error {
+  border-color: red;
+}
+
+.btn {
+  max-width: 150px;
+  margin: 32px 0;
+  padding: 12px 20px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #d55846;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.checkmark {
+  width: 100px;
+  margin: 2.5rem;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
